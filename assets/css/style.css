@@ -6,13 +6,24 @@
 
 body {
     background-color: #d9dcd6;
+   
 }
 
 .header {
+    /*added posiiton:fixed to allow the header to remain in view as user scrolled down 
+    website.  Then had to increase the width of header to 100% as the "hero" div was 
+    exposed on the top right*/
+    position: fixed;
+    width: 100%;
+    /*added display flex to resolve issue where nav ul slides underneath H1.  
+    Then applied justify content space between to keep nav ul and h1 on opposite ends*/
+    display: flex;
+    justify-content: space-between;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+     
 }
 
 .header h1 {
@@ -34,6 +45,9 @@ body {
 
 .header div ul {
     list-style-type: none;
+    /*added display flex b/c I didn't like the way the ul shifted underneath and out 
+    of center*/
+    display: flex;
 }
 
 .header div ul li {
@@ -197,4 +211,11 @@ p {
 
 .footer h2 {
     font-size: 20px;
+}
+/* added funcionality for smaller screens*/
+@media screen and (min-width: 600px) {
+    
+}
+@media screen and (min-width: 320px) {
+    
 }
