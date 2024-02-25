@@ -1,7 +1,5 @@
 # Horiseaon Website
 
-Welcome to the Horiseon Website project! This project is aimed at providing a clean website for Horiseon Social Solution Services, Inc. The website covers topics such as Search Engine Optimization (SEO), Online Reputation Managagment, and Social Media Marketing.
-
 ## Table of Contents
     -features
     -usage
