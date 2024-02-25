@@ -40,9 +40,7 @@ header nav {
 }
 
 header nav ul {
-    list-style-type: none;
-    /*added display flex b/c I didn't like the way the ul shifted underneath and out 
-    of center*/
+    list-style-type: none;/*added display flex b/c I didn't like the way the ul shifted underneath and out of center*/
     display: flex;
 }
 
