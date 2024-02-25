@@ -9,7 +9,7 @@ body {
    
 }
 
-.header {
+header {
     /*added posiiton:fixed to allow the header to remain in view as user scrolled down 
     website.  Then had to increase the width of header to 100% as the "hero" div was 
     exposed on the top right*/
@@ -26,16 +26,16 @@ body {
      
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header div {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -43,14 +43,14 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+header nav ul {
     list-style-type: none;
     /*added display flex b/c I didn't like the way the ul shifted underneath and out 
     of center*/
     display: flex;
 }
 
-.header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -83,13 +83,13 @@ p {
     margin-left: 25px;
 }
 
-.content {
+section {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -151,8 +151,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-/*Removed the height from all three divs.  Allowed the increased font size to stay 
-on background. Even as the screen dimensions shrank*/
+/*Increaed height*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -207,22 +206,23 @@ on background. Even as the screen dimensions shrank*/
     font-size: 36px;
 }
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
 /* added funcionality for smaller screens*/
 @media screen and (min-width: 600px) {
     
-    }
+}
 
 
 @media screen and (min-width: 320px) {
+    
     
 }
