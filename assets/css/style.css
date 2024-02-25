@@ -10,13 +10,9 @@ body {
 }
 
 header {
-    /*added posiiton:fixed to allow the header to remain in view as user scrolled down 
-    website.  Then had to increase the width of header to 100% as the "hero" div was 
-    exposed on the top right*/
+    /*added posiiton:fixed to allow the header to remain in view as user scrolled down website.  Then had to increase the width of header to 100% as the "hero" div was exposed on the top right*/
     position: fixed;
-    width: 100%;
-    /*added display flex to resolve issue where nav ul slides underneath H1.  
-    Then applied justify content space between to keep nav ul and h1 on opposite ends*/
+    width: 100%;/*added display flex to resolve issue where nav ul slides underneath H1.  Then applied justify content space between to keep nav ul and h1 on opposite ends*/
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -100,33 +96,25 @@ aside {
     background-color: #2589bd;
 }
 
-.benefit-lead,
-.benefit-brand,
-.benefit-cost {
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
 /*increase font size to distinguish between new P font size*/
-.benefit-lead h3,
-.benefit-brand h3,
-.benefit-cost h3 {
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 22px;
 }
 
-.benefit-lead img,
-.benefit-brand img,
-.benefit-cost img {
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 /*Increased height*/
 
-.search-engine-optimization,
-.online-reputation-management,
-.social-media-marketing {
+.marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 350px;
@@ -134,15 +122,11 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
-.search-engine-optimization img,
-.online-reputation-management img,
-.social-media-marketing img {
+.marketing img {
     max-height: 200px;
 }
 
-.search-engine-optimization h2,
-.online-reputation-management h2,
-.social-media-marketing h2 {
+.marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
