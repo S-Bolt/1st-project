@@ -16,5 +16,8 @@
 
     https://s-bolt.github.io/1st-project/
 
+## Credits
+    -Thank you AI assistant for supporting the project.
+
 ## License
 This project is licensed under the MIT License.
