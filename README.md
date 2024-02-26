@@ -1,6 +1,6 @@
-# Horiseaon Website
+# Horiseon Website
 
-Hello and welcome to Horiseaon Website.  Here you can view topics such as: Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
+Hello and welcome to Horiseon Website.  Here you can view topics such as: Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
 
 ## Table of Contents
     -Features
