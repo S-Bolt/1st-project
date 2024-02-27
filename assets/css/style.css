@@ -112,7 +112,7 @@ aside {
 }
 /*Increased height*/
 
-.marketing {
+.info {
     margin-bottom: 20px;
     padding: 50px;
     height: 350px;
@@ -120,11 +120,11 @@ aside {
     background-color: #0072bb;
     color: #ffffff;
 }
-.marketing img {
+.info img {
     max-height: 200px;
 }
 
-.marketing h2 {
+.info h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
