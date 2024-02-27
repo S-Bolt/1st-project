@@ -5,7 +5,6 @@ Hello and welcome to Horiseon Website.  Here you can view topics such as: Search
 ## Table of Contents
     -Features
     -Usage
-    -Credits
     -License
 
 ## Features
@@ -18,9 +17,6 @@ Hello and welcome to Horiseon Website.  Here you can view topics such as: Search
     -Follow the link below to view the website
 
     https://s-bolt.github.io/1st-project/
-
-## Credits
-    -Thank you AI assistant for supporting the project.
 
 ## License
 This project is licensed under the MIT License.
